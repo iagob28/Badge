@@ -1,0 +1,18 @@
+.badge_faixa {
+  position: absolute;
+  background-image: linear-gradient(to bottom, #ff008e, #ffcd1e);
+  width: 64px;
+  height: 158px;
+}
+.badge_furo{
+  background: #09090a;
+  width: 80px;
+  height: 8px;
+  position: absolute;
+  top: 155px;
+}
+@media screen and (max-width: 375px){
+  .badge_faixa, .badge_furo{
+    display: none;
+  }
+}
