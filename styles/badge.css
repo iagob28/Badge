@@ -18,6 +18,7 @@
 .badge_background___hexagon img {
   width: auto;
   height: 185px;
+  object-fit: cover;
   clip-path: polygon(50% 4%, 100% 25%, 100% 75%, 50% 96%, 0% 75%, 0% 25%);
 }
 .badge_background___effect {
