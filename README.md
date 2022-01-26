@@ -1,7 +1,7 @@
 # Badge
-This is a badge made in HTML and CSS.
+This is a badge made in HTML and CSS, and it is a responsive design.
 
-## Running the project
+## Try out the project
 
 Clone the repository, and open the file index.html
 
