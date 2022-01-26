@@ -1,4 +1,4 @@
-.badge_cracha {
+.badge_background {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,16 +11,16 @@
   background: #202024;
   color: #e1e1e6;
 }
-.badge_cracha___hexagono{
+.badge_background___hexagon{
   position: absolute;
   top: 25px;
 }
-.badge_cracha___hexagono img {
+.badge_background___hexagon img {
   width: auto;
   height: 185px;
   clip-path: polygon(50% 4%, 100% 25%, 100% 75%, 50% 96%, 0% 75%, 0% 25%);
 }
-.badge_cracha___efeito {
+.badge_background___effect {
   background-image: linear-gradient(to right, #ff008e, #ffcd1e);
   position: absolute;
   top: 0;
@@ -28,28 +28,28 @@
   width: 100%;
   clip-path: polygon(50% 100%, 100% 50%, 100% 0%, 0% 0%, 0% 50%);
 }
-.badge_cracha h3 {
+.badge_background h3 {
   text-align: center;
   font-weight: 700;
   margin-top: 145px;
 }
-.badge_cracha___perfilGithub {
+.badge_background___githubProfile {
   display: flex;
   align-items: center;
   margin-top: 4px;
   font-size: 12px;
 }
-.badge_cracha___perfilGithub img {
+.badge_background___githubProfile img {
   height: 16px;
 }
-.badge_cracha___descricao {
+.badge_background___description {
   font-size: 12px;
   text-align: center;
   width: auto;
   margin-top: 32px;
 }
 @media screen and (max-width: 375px){
-  .badge_cracha{
+  .badge_background{
     width: 100vw;
     height: 100%;
     top: 0;
@@ -61,19 +61,19 @@
     ),
     radial-gradient(circle at top -20px right 50px, #ffc4234b, transparent 35%);
   }
-  .badge_cracha___efeito{
+  .badge_background___effect{
     height: 170px;
     clip-path: polygon(50% 100%, 100% 50%, 100% 0%, 0% 0%, 0% 50%);
     
 
   }
-  .badge_cracha___hexagono{
+  .badge_background___hexagon{
     top: 90px;
   }
-  .badge_cracha h3 {
+  .badge_background h3 {
     margin-top: 42px;
   }
-  .badge_cracha___descricao{
+  .badge_background___description{
     width: 200px;
   }
 }
