@@ -1,5 +1,5 @@
 # Badge
-This is a badge made in HTML and CSS, and it is a responsive design.
+This is a badge made in HTML and CSS, and it is a responsive design
 
 ## Try out the project
 
